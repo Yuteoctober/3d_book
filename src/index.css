@@ -24,7 +24,7 @@ body {
   width: 100vw; 
   height: 100vh; 
   object-fit: cover;
-  background-image: url('./assets/livebg2.gif');
+  background-image: url('/livebg2.gif');
   transform: translate(-50%, -50%);
   pointer-events: none;
   opacity: 0.9;
