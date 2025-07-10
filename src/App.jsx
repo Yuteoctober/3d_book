@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import { Experience } from "./components/Experience";
 import { UI } from "./components/UI";
-import livebg2 from '../src/assets/livebg2.mp4';
+import livebg2 from './assets/livebg2.mp4';
 import loadingchillguy from '../src/assets/chillmeditate.webp';
 
 function App() {
