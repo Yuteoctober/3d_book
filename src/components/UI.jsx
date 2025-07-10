@@ -70,7 +70,7 @@ export const UI = () => {
         </div>
         <div className="w-[100vw] pointer-events-auto flex justify-center">
           <div className="md:max-w-[1000px] md:w-[100%] flex items-center justify-center">
-            <div className="relative bottom-2 bg-slate-500 bg-opacity-65 flex items-center justify-center gap-3 md:w-fit p-4 px-18 rounded-full">
+            <div className="relative bottom-2 bg-slate-500 bg-opacity-65 flex items-center justify-center gap-2 md:gap-3 md:w-fit p-4 px-18 rounded-full">
               {[...pages].map((_, index) => (
                 <button
                   key={index}
