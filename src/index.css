@@ -30,6 +30,7 @@ body {
   opacity: 0.9;
   touch-action: none; 
   overflow: hidden;
+  z-index: 9999999;
 }
 
 body {
