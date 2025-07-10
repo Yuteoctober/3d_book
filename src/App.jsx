@@ -3,13 +3,11 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import { Experience } from "./components/Experience";
 import { UI } from "./components/UI";
-import livebg2 from './assets/livebg2.gif';
 import loadingchillguy from '../src/assets/chillmeditate.webp';
 
 function App() {
   return (
     <div id="root">
-      <img src={livebg2} id='background-video' alt="" />
       <UI />
       <Loader
         containerStyles={{
